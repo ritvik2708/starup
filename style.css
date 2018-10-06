@@ -1,0 +1,35 @@
+body,html{
+    height: 100%;
+    margin:0;
+}
+.mainbody{
+    height: 100%;
+    background: url(header.jpg) center;
+    background-size: cover;
+    color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+hr{
+    max-width: 80px;
+    border-width: 2px;
+    border-color: brown;
+    margin-top: 200px;
+    margin-bottom: 10px;
+}
+.btn-primary{
+    border-radius: 300px;
+    font-size: 1rem;
+    background-color: brown;
+    color: rgba(255, 255, 255, 0.8);
+    padding: 1rem 40px;
+    border-color: brown;
+}
+.btn-primary:hover {
+    background-color: #ee4b08;
+    border-color: #ee4b08;
+    border-width: 5px;
+    cursor: pointer;
+  }
